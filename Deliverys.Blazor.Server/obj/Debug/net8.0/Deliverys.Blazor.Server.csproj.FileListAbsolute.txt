@@ -201,3 +201,4 @@ C:\Users\user\source\repos\Deliverys\Deliverys.Blazor.Server\obj\Debug\net8.0\re
 C:\Users\user\source\repos\Deliverys\Deliverys.Blazor.Server\obj\Debug\net8.0\Deliverys.Blazor.Server.pdb
 C:\Users\user\source\repos\Deliverys\Deliverys.Blazor.Server\obj\Debug\net8.0\Deliverys.Blazor.Server.genruntimeconfig.cache
 C:\Users\user\source\repos\Deliverys\Deliverys.Blazor.Server\obj\Debug\net8.0\ref\Deliverys.Blazor.Server.dll
+C:\Users\user\source\repos\Deliverys\Deliverys.Blazor.Server\obj\Debug\net8.0\Deliverys.Blazor.Server.sourcelink.json

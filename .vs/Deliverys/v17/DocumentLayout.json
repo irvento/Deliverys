@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Deliverys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|c:\\users\\user\\source\\repos\\deliverys\\deliverys.module\\businessobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|c:\\users\\user\\source\\repos\\deliverys\\deliverys.module\\businessobjects\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|C:\\Users\\user\\source\\repos\\Deliverys\\deliverys.module\\businessobjects\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|c:\\users\\user\\source\\repos\\deliverys\\deliverys.module\\businessobjects\\costumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\costumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|C:\\Users\\user\\source\\repos\\Deliverys\\deliverys.module\\businessobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Costumer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Costumer.cs",
+              "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Costumer.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Costumer.cs",
+              "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Costumer.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T14:13:58.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Employee.cs",
+              "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Employee.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Employee.cs",
+              "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Employee.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T14:03:07.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Person.cs",
               "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Person.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Person.cs",
               "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Person.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwC8AAAAJAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAA3wD4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T11:04:17.587Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\ReadMe.txt",
-              "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\ReadMe.txt",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\ReadMe.txt",
-              "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\ReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-03-24T10:22:15.259Z"
             }
           ]
         }

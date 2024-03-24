@@ -10,3 +10,4 @@ C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys
 C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\refint\Deliverys.Module.dll
 C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys.Module.pdb
 C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\ref\Deliverys.Module.dll
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys.Module.sourcelink.json

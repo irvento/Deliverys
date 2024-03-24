@@ -14,18 +14,14 @@ using DevExpress.Xpo;
 
 namespace Deliverys.Module.BusinessObjects
 {
-    [DefaultClassOptions]
+
     //[ImageName("BO_Contact")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
-    public class Person : XPLiteObject
+    public class Person : XPObject
     {
-        Address address;
-        int? age;
-        string lastName;
-        string firstName;
         public Person(Session session)
             : base(session)
         {
@@ -34,6 +30,12 @@ namespace Deliverys.Module.BusinessObjects
         {
             base.AfterConstruction();
         }
+        Address address;
+        int? age;
+        string lastName;
+        string firstName;
+        
+        
         public Person() { }
 
         [Size(32)]
@@ -61,6 +63,6 @@ namespace Deliverys.Module.BusinessObjects
             get => address;
             set => SetPropertyValue(nameof(Address), ref address, value);
         }
-
+        
     }
 }
