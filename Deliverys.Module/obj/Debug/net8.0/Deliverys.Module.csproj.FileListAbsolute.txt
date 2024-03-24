@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\bin\Debug\net8.0\Deliverys.Module.deps.json
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\bin\Debug\net8.0\Deliverys.Module.dll
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\bin\Debug\net8.0\Deliverys.Module.pdb
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys.Module.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys.Module.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys.Module.AssemblyInfo.cs
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys.Module.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys.Module.dll
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\refint\Deliverys.Module.dll
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\Deliverys.Module.pdb
+C:\Users\user\source\repos\Deliverys\Deliverys.Module\obj\Debug\net8.0\ref\Deliverys.Module.dll
