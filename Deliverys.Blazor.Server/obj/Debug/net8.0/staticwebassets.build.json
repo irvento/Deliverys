@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OLCOXc2Ijvqr4h4NPqiwNOza+0mQ5zrBttypFatr4g8=",
+  "Hash": "3Xeph7YZjCtKNXdcpr4moSawTL6tfw4l66eVl8KTexk=",
   "Source": "Deliverys.Blazor.Server",
   "BasePath": "_content/Deliverys.Blazor.Server",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Deliverys.Blazor.Server\\wwwroot",
       "Source": "Deliverys.Blazor.Server",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Source\\Repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Deliverys.Blazor.Server",
       "Pattern": "**"
     }
@@ -6021,10 +6021,10 @@
       "OriginalItemSpec": "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages\\devexpress.expressapp.office.blazor\\23.2.4\\staticwebassets\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\user\\Source\\Repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\css\\site.css",
       "SourceId": "Deliverys.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Source\\Repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Deliverys.Blazor.Server",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -6040,10 +6040,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\user\\Source\\Repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\favicon.ico",
       "SourceId": "Deliverys.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Source\\Repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Deliverys.Blazor.Server",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -6059,10 +6059,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\images\\Logo.svg",
+      "Identity": "C:\\Users\\user\\Source\\Repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\images\\Logo.svg",
       "SourceId": "Deliverys.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Source\\Repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Deliverys.Blazor.Server",
       "RelativePath": "images/Logo.svg",
       "AssetKind": "All",
@@ -6078,10 +6078,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Logo.svg"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "Identity": "C:\\Users\\user\\Source\\Repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
       "SourceId": "Deliverys.Blazor.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Source\\Repos\\Deliverys\\Deliverys.Blazor.Server\\wwwroot\\",
       "BasePath": "_content/Deliverys.Blazor.Server",
       "RelativePath": "images/SplashScreen.svg",
       "AssetKind": "All",
