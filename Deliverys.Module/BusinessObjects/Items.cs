@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.ConditionalAppearance;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Model;
 using DevExpress.Persistent.Base;
@@ -15,6 +16,9 @@ using DevExpress.Xpo;
 namespace Deliverys.Module.BusinessObjects
 {
     [DefaultClassOptions]
+    [Appearance("EnrolledAppearance", AppearanceItemType = "ViewItem", TargetItems = "*",
+    Criteria = "IsSent = true", Context = "ListView", BackColor = "Green",
+        FontColor = "White", Priority = 1)]
     public class Items : XPObject
     {
         public Items(Session session) : base(session) { }
@@ -47,7 +51,40 @@ namespace Deliverys.Module.BusinessObjects
             set => SetPropertyValue(nameof(ItemWeight), ref itemWeight, value);
         }
 
-        public Guid ItemId { get; set; }
+        bool isSent;
+        DateTime? dateSent;
+
+
+        public bool IsSent
+        {
+            get => isSent;
+            set => SetPropertyValue(nameof(IsSent), ref isSent, value);
+        }
+
+        public DateTime? DateSent
+        {
+            get => dateSent;
+            set => SetPropertyValue(nameof(DateSent), ref dateSent, value);
+        }
+
+        private ItemStatus itemStatus;
+
+        [ImmediatePostData] 
+        public ItemStatus ItemStatus
+        {
+            get => itemStatus;
+            set 
+            { 
+                if(IsSent == true)
+                {
+                    SetPropertyValue(nameof(ItemStatus), ref itemStatus, ItemStatus.Success);
+                }
+                else
+                {
+                    SetPropertyValue(nameof(ItemStatus), ref itemStatus, ItemStatus.Pending);
+                }
+            }
+        }
 
         [Association("Sender-Items")]
         public XPCollection<Sender> Senders => GetCollection<Sender>(nameof(Senders));
@@ -61,5 +98,11 @@ namespace Deliverys.Module.BusinessObjects
         Fragile,
         Perishable,
         Flammable
+    }
+
+    public enum ItemStatus
+    {
+        Pending,
+        Success
     }
 }
