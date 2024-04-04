@@ -15,11 +15,6 @@ using DevExpress.Xpo;
 namespace Deliverys.Module.BusinessObjects
 {
 
-    //[ImageName("BO_Contact")]
-    //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
-    //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
-    //[Persistent("DatabaseTableName")]
-    // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
     public class Person : XPObject
     {
         public Person(Session session)
@@ -30,22 +25,42 @@ namespace Deliverys.Module.BusinessObjects
         {
             base.AfterConstruction();
         }
+        int contactNumber;
+        string emailAdress;
         Address address;
         int? age;
         string lastName;
+        string middleName;
         string firstName;
-        
-        
-        public Person() { }
+
+
+        public string FullName
+        {
+            get
+            {
+                return $"{FirstName} {MiddleName} {LastName}";
+            }
+        }
 
         [Size(32)]
+        [RuleRequiredField("FirstNameIsRequired", DefaultContexts.Save, "First name must not be empty!")]
         public string FirstName
         {
             get => firstName;
             set => SetPropertyValue(nameof(FirstName), ref firstName, value);
         }
 
+
+        [Size(SizeAttribute.DefaultStringMappingFieldSize)]
+        [RuleRequiredField("MiddleNameIsRequired", DefaultContexts.Save, "Middle name must not be empty!")]
+        public string MiddleName
+        {
+            get => middleName;
+            set => SetPropertyValue(nameof(MiddleName), ref middleName, value);
+        }
+
         [Size(32)]
+        [RuleRequiredField("LastNameIsRequired", DefaultContexts.Save, "Last name must not be empty!")]
         public string LastName
         {
             get => lastName;
@@ -63,6 +78,21 @@ namespace Deliverys.Module.BusinessObjects
             get => address;
             set => SetPropertyValue(nameof(Address), ref address, value);
         }
+
         
+        [Size(SizeAttribute.DefaultStringMappingFieldSize)]
+        [RuleRequiredField("EmailAdressIsRequired", DefaultContexts.Save, "Email name must not be empty!")]
+
+        public string EmailAdress
+         {
+         	get => emailAdress;
+         	set => SetPropertyValue(nameof(EmailAdress), ref emailAdress, value);
+         }
+
+        public int ContactNumber
+         {
+         	get => contactNumber;
+         	set => SetPropertyValue(nameof(ContactNumber), ref contactNumber, value);
+         }
     }
 }

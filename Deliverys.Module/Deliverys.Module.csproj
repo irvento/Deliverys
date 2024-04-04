@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="BusinessObjects\Person1.cs" />
+    <Compile Remove="Controllers\SendItemsController1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Model.DesignedDiffs.xafml" />

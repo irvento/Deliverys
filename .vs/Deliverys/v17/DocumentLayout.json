@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Deliverys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|c:\\users\\user\\source\\repos\\deliverys\\deliverys.module\\businessobjects\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|C:\\Users\\user\\source\\repos\\Deliverys\\deliverys.module\\businessobjects\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|C:\\Users\\user\\source\\repos\\Deliverys\\deliverys.module\\businessobjects\\sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|C:\\Users\\user\\source\\repos\\Deliverys\\deliverys.module\\businessobjects\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\receiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|c:\\users\\user\\source\\repos\\deliverys\\deliverys.module\\controllers\\senditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\controllers\\senditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|c:\\users\\user\\source\\repos\\deliverys\\deliverys.module\\businessobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|C:\\Users\\user\\source\\repos\\Deliverys\\deliverys.module\\businessobjects\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|c:\\users\\user\\source\\repos\\deliverys\\deliverys.module\\businessobjects\\costumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\costumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|C:\\Users\\user\\source\\repos\\Deliverys\\deliverys.module\\businessobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:deliverys.module\\businessobjects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6580E249-0AB1-4330-948B-5B19E2CAF741}|Deliverys.Module\\Deliverys.Module.csproj|solutionrelative:Deliverys.Module\\BusinessObjects\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Costumer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Costumer.cs",
-              "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Costumer.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Costumer.cs",
-              "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Costumer.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwCAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Items.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Items.cs",
+              "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Items.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Items.cs",
+              "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Items.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAuwFUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:13:58.894Z",
+              "WhenOpened": "2024-04-03T14:36:54.81Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "SendItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\Controllers\\SendItemsController.cs",
+              "RelativeDocumentMoniker": "Deliverys.Module\\Controllers\\SendItemsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\Controllers\\SendItemsController.cs",
+              "RelativeToolTip": "Deliverys.Module\\Controllers\\SendItemsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T08:59:16.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sender.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Sender.cs",
+              "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Sender.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Sender.cs",
+              "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Sender.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvx4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:22:37.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Receiver.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Receiver.cs",
+              "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Receiver.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Receiver.cs",
+              "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Receiver.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T15:21:15.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Customer.cs",
+              "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Customer.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Customer.cs",
+              "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Customer.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:41:27.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Employee.cs",
               "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Employee.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Employee.cs",
               "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Employee.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABEAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T14:03:07.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Person.cs",
               "RelativeDocumentMoniker": "Deliverys.Module\\BusinessObjects\\Person.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\Deliverys\\Deliverys.Module\\BusinessObjects\\Person.cs",
               "RelativeToolTip": "Deliverys.Module\\BusinessObjects\\Person.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAA3wD4AAAAbAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwDkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T11:04:17.587Z",
               "EditorCaption": ""

@@ -16,33 +16,23 @@ using DevExpress.Xpo.Metadata;
 
 namespace Deliverys.Module.BusinessObjects
 {
-    [DefaultClassOptions] 
     public class Costumer : Person
     {
+        public Costumer(Session session) : base(session) { }
 
-   
-
-        public Costumer(Session session) : base(session)
-        {
-
-        }
         public override void AfterConstruction()
         {
             base.AfterConstruction();
         }
 
-        private bool reciever;
-        public bool Reciever
-        {
-            get => reciever;
-            set => SetPropertyValue(nameof(Reciever), ref reciever, value);
-        }
-        private bool sender;
-        public bool Sender
-        {
-            get => sender;
-            set => SetPropertyValue(nameof(Sender), ref sender, value);
-        }
+        //[Association("Customer-Items")]
+        //public XPCollection<Items> Item => GetCollection<Items>(nameof(Item));
+
+        //[Association("Customer-Receivers")]
+        //public XPCollection<Receiver> Receivers => GetCollection<Receiver>(nameof(Receivers));
+
+        //[Association("Customer-Senders")]
+        //public XPCollection<Sender> Senders => GetCollection<Sender>(nameof(Senders));
     }
 }
 
