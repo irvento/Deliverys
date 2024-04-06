@@ -26,10 +26,7 @@ namespace Deliverys.Module.BusinessObjects
             set => SetPropertyValue(nameof(Role), ref _role, value);
         }
 
-        // Define the list of roles
-        public static List<string> AvailableRoles => new List<string> { "Manager", "Sales", "Dispatcher", "Delivery", "Inventory" };
 
-        // Override AfterConstruction if needed
         public override void AfterConstruction()
         {
             base.AfterConstruction();

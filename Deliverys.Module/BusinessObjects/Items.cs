@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
+using Deliverys.Module.BusinessObjects;
 using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.ConditionalAppearance;
@@ -45,10 +47,10 @@ namespace Deliverys.Module.BusinessObjects
             set => SetPropertyValue(nameof(ItemType), ref itemType, value);
         }
 
-        public int ItemWeight
+        public int ItemWeightbyKG
         {
             get => itemWeight;
-            set => SetPropertyValue(nameof(ItemWeight), ref itemWeight, value);
+            set => SetPropertyValue(nameof(ItemWeightbyKG), ref itemWeight, value);
         }
 
         bool isSent;
@@ -64,7 +66,17 @@ namespace Deliverys.Module.BusinessObjects
         public DateTime? DateSent
         {
             get => dateSent;
-            set => SetPropertyValue(nameof(DateSent), ref dateSent, value);
+            set
+            {
+                if (IsSent == true)
+                {
+                    SetPropertyValue(nameof(DateSent), ref dateSent, DateTime.Now);
+                }
+                else
+                {
+                    SetPropertyValue(nameof(DateSent), ref dateSent, value);
+                }
+            }
         }
 
         private ItemStatus itemStatus;
@@ -77,7 +89,7 @@ namespace Deliverys.Module.BusinessObjects
             { 
                 if(IsSent == true)
                 {
-                    SetPropertyValue(nameof(ItemStatus), ref itemStatus, ItemStatus.Success);
+                    SetPropertyValue(nameof(ItemStatus), ref itemStatus, ItemStatus.Sent);
                 }
                 else
                 {
@@ -85,6 +97,8 @@ namespace Deliverys.Module.BusinessObjects
                 }
             }
         }
+
+        
 
         [Association("Sender-Items")]
         public XPCollection<Sender> Senders => GetCollection<Sender>(nameof(Senders));
@@ -103,6 +117,6 @@ namespace Deliverys.Module.BusinessObjects
     public enum ItemStatus
     {
         Pending,
-        Success
+        Sent
     }
 }

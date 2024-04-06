@@ -52,7 +52,6 @@ namespace Deliverys.Module.BusinessObjects
 
 
         [Size(SizeAttribute.DefaultStringMappingFieldSize)]
-        [RuleRequiredField("MiddleNameIsRequired", DefaultContexts.Save, "Middle name must not be empty!")]
         public string MiddleName
         {
             get => middleName;
@@ -88,7 +87,6 @@ namespace Deliverys.Module.BusinessObjects
          	get => emailAdress;
          	set => SetPropertyValue(nameof(EmailAdress), ref emailAdress, value);
          }
-
         public int ContactNumber
          {
          	get => contactNumber;
