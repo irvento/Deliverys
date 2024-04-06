@@ -33,7 +33,6 @@ namespace Deliverys.Module.BusinessObjects
         string middleName;
         string firstName;
 
-
         public string FullName
         {
             get
@@ -58,6 +57,8 @@ namespace Deliverys.Module.BusinessObjects
             set => SetPropertyValue(nameof(MiddleName), ref middleName, value);
         }
 
+        
+
         [Size(32)]
         [RuleRequiredField("LastNameIsRequired", DefaultContexts.Save, "Last name must not be empty!")]
         public string LastName
@@ -65,6 +66,8 @@ namespace Deliverys.Module.BusinessObjects
             get => lastName;
             set => SetPropertyValue(nameof(LastName), ref lastName, value);
         }
+
+        
 
         public int? Age
         {

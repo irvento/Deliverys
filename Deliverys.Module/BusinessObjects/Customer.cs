@@ -25,14 +25,7 @@ namespace Deliverys.Module.BusinessObjects
             base.AfterConstruction();
         }
 
-        //[Association("Customer-Items")]
-        //public XPCollection<Items> Item => GetCollection<Items>(nameof(Item));
-
-        //[Association("Customer-Receivers")]
-        //public XPCollection<Receiver> Receivers => GetCollection<Receiver>(nameof(Receivers));
-
-        //[Association("Customer-Senders")]
-        //public XPCollection<Sender> Senders => GetCollection<Sender>(nameof(Senders));
+       
     }
 }
 

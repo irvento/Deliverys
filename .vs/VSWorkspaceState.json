@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Deliverys.Module",
     "\\Deliverys.Module\\BusinessObjects",
     "\\Deliverys.Module\\Controllers"
   ],
-  "SelectedNode": "\\Deliverys.sln",
+  "SelectedNode": "\\Deliverys.Module",
   "PreviewInSolutionExplorer": false
 }

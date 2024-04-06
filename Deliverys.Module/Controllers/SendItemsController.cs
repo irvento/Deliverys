@@ -19,10 +19,10 @@ namespace Deliverys.Module.Controllers
             {
                 Caption = "Send",
             };
-            sendAction.Execute += EnrollmentAction_Execute;
+            sendAction.Execute += SendAction_Execute;
         }
 
-        private void EnrollmentAction_Execute(object sender, SimpleActionExecuteEventArgs e)
+        private void SendAction_Execute(object sender, SimpleActionExecuteEventArgs e)
         {
             Items senders = null;
             if (View is ListView)
@@ -51,7 +51,7 @@ namespace Deliverys.Module.Controllers
 
         protected override void OnDeactivated()
         {
-            sendAction.Execute -= EnrollmentAction_Execute;
+            sendAction.Execute -= SendAction_Execute;
             base.OnDeactivated();
         }
     }

@@ -18,7 +18,7 @@ using DevExpress.Xpo;
 namespace Deliverys.Module.BusinessObjects
 {
     [DefaultClassOptions]
-    [Appearance("EnrolledAppearance", AppearanceItemType = "ViewItem", TargetItems = "*",
+    [Appearance("SentAppearance", AppearanceItemType = "ViewItem", TargetItems = "*",
     Criteria = "IsSent = true", Context = "ListView", BackColor = "Green",
         FontColor = "White", Priority = 1)]
     public class Items : XPObject
@@ -30,6 +30,8 @@ namespace Deliverys.Module.BusinessObjects
             base.AfterConstruction();
         }
 
+        DateTime estimatedTimeofArrival;
+        Task task;
         int itemWeight;
         ItemTypeEnum itemType;
         string itemName;
@@ -81,13 +83,13 @@ namespace Deliverys.Module.BusinessObjects
 
         private ItemStatus itemStatus;
 
-        [ImmediatePostData] 
+        [ImmediatePostData]
         public ItemStatus ItemStatus
         {
             get => itemStatus;
-            set 
-            { 
-                if(IsSent == true)
+            set
+            {
+                if (IsSent == true)
                 {
                     SetPropertyValue(nameof(ItemStatus), ref itemStatus, ItemStatus.Sent);
                 }
@@ -98,7 +100,21 @@ namespace Deliverys.Module.BusinessObjects
             }
         }
 
+
+        public Task Task
+        {
+            get => task;
+            set => SetPropertyValue(nameof(Task), ref task, value);
+           
+        }
+
         
+        public DateTime EstimatedTimeofArrival
+        {
+            get => estimatedTimeofArrival;
+            set => SetPropertyValue(nameof(EstimatedTimeofArrival), ref estimatedTimeofArrival, DateTime.Now.AddDays(7));
+        }
+
 
         [Association("Sender-Items")]
         public XPCollection<Sender> Senders => GetCollection<Sender>(nameof(Senders));
@@ -113,6 +129,7 @@ namespace Deliverys.Module.BusinessObjects
         Perishable,
         Flammable
     }
+    
 
     public enum ItemStatus
     {
